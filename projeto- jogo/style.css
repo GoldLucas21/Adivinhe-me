@@ -1,0 +1,98 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  font-size: 62.5%;
+}
+body {
+  background: linear-gradient(315deg, #311d61 0%, #3e8cf3b6 100%);
+  font-size: 1.6rem;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+button {
+  color: white;
+  border-radius: 0rem .4rem .4rem 0rem;
+  background: linear-gradient(315deg, #10256b 0%, #51aaa3b6 100%);
+  cursor:pointer;
+  transition: background .3s;
+ }
+ button:hover{
+  background:linear-gradient(315deg, #615f69dc 0%, #190d50ec 100%);
+ }
+
+.hide{
+ display: none;
+}
+
+main{
+   background: #ecebebf5;
+   box-shadow: .0rem .2rem .4rem 0rem rgba(0, 0, 0, 0.10);
+   padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+   border-radius: .6rem;
+   width: min(42.8rem, 90%);
+   
+   text-align: center;
+ }
+
+ /*screen1 */
+ h1 {
+  color: #34355B;
+  font-size: 2.4rem;
+  animation: h1;
+  animation-duration: 3s;
+  animation-direction: alternate ;
+  
+ }
+
+ @keyframes h1 {
+   to {color: #000000ec;
+ }
+   from {
+     color: #34355B;
+   }
+  }
+ 
+ p{
+  color: rgba(52, 53, 91, 0.80);
+  font-size: 1.6rem;
+  line-height: 150%;
+  margin-top:.2rem;
+  opacity: .8rem;
+  
+ }
+
+ form {
+  margin-top: 4.8rem;
+  display: flex;
+  justify-content: center;
+ }
+ input,button{
+  border:none;
+  padding: 1.6rem;
+ }
+
+ input {
+  width: 6rem;
+  border-radius: .4rem 0rem 0rem .4rem;
+  background: #DCE2E9;
+ }
+
+  /*screen2 */
+  h2{
+    color: #34355B;
+    text-align: center;
+    font-size: 2.4rem; 
+    margin-bottom: 3.3rem;
+  }
+  .screen2 button{
+    border-radius: .4rem;
+  }
+
+  
+  /*Frame*/
+
+  
