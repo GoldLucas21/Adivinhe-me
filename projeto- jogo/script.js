@@ -27,4 +27,15 @@ function handleClick(event){
 
  // Eventos
 
+ const btnTry=document.querySelector("#btnTry")
+ const btnReset=document.querySelector("#btnReset")
+  
+
+ btnTry.addEventListener('click', handleTryClick)
+  btnReset.addEventListener('click', function(){
+   screen1.classList.remove("hide")
+   screen2.classList.add("hide")
+    xAttempts=1
+  })
+
  
